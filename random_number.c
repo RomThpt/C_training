@@ -16,9 +16,6 @@ int main()
 try:
     scanf("%d",&guess);
 
-    if (! (guess>100) && !(guess<0) )
-    {goto try;}
-
     if (answer==guess){
         printf("GG\n");
         return 0;
