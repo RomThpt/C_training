@@ -34,6 +34,7 @@ int main(){
             break;
     };
     printf("The result of the opperation will be %lf \n", result);
+    system("PAUSE");
     return 0;
 };
 

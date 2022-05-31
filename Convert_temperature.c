@@ -47,7 +47,7 @@ int main(){
     scanf("%f",&temp);
 
     convertion(unit,unitWanted,temp);
-
+    system("PAUSE");
     return 0;
 };
 

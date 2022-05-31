@@ -30,7 +30,7 @@ try:
         printf("Too low\n");
         goto try;
     };
-
+    system("PAUSE");
     return 0;
 
 };

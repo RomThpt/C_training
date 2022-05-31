@@ -40,7 +40,7 @@ try:
         printf("You lose!\n");
         return 0;
     }
-
+    system("PAUSE");
     return 0;
 
 };

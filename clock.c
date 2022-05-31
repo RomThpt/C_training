@@ -7,7 +7,7 @@ int main()
     int d=1000;
 
     printf("Set time: \n");
-    scanf("%d%d%d",&h,&m,&s);
+    scanf("%d %d %d",&h,&m,&s);
 
     if (h>24 || m>60 || s>60)
     {
@@ -36,5 +36,5 @@ int main()
         system("cls");
     };
     return 0;
-
+    system("PAUSE");
 };

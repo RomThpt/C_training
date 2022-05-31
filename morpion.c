@@ -84,6 +84,6 @@ int main()
         game(&player, lign, column);
         verify_win(&game_active);
     } ;
+    system("PAUSE");
     return 0;
-
 };

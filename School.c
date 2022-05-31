@@ -59,6 +59,6 @@ int main()
     system("cls");
 
     second_page();
-
+    system("PAUSE");
     return(0);
 };
