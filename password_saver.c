@@ -9,9 +9,9 @@ Pass word saver
 */
 void add_password_page(){
     char newPassword[100];
-    int restart=1;
+    int restart;
 
-    while(restart){
+    do{
         FILE *pF = fopen("password.txt", "a");
         system("cls");
         printf("Hey tell me your new password : ");
@@ -20,7 +20,8 @@ void add_password_page(){
         fclose(pF);
         printf("Add a new one ? (0=No or 1=Yes) ");
         scanf("%d", &restart);
-    };
+    }while(restart);
+    
     first_page();
     return;
 };
